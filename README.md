@@ -44,4 +44,4 @@ Press ctrl-c to stop
 
 # License
 
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit-175x39.png?v=103)](https://opensource.org/licenses/mit-license.php)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit-39x39.png?v=103)](https://opensource.org/licenses/mit-license.php)
