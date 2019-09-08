@@ -1,0 +1,181 @@
+{
+  "basics": {
+    "name": "胡成龙",
+    "label": "IT运维及技术支持",
+    "picture": "",
+    "email": "hoochanlon@outlook.com",
+    "phone": "(+86)18890107327",
+    "website": "https://github.com/hoodiearon",
+    "summary": "从业网络及系统运维2年，有稳实的经验积累。善于制定、探讨及优化项目实施方案，乐于研究问题核心本质，并不断实践总结，将所得经验分享团队提高工作效率，并提供优质高效的运维服务。",
+    "location": {
+      "city": "湖南科职院",
+      "countryCode": "17届 计算机工程"
+    },
+    "profiles": [
+      {
+        "url": "https://hoodiearon.github.io/about"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "神州动力数码有限公司",
+      "position": "IT运维工程师",
+      "startDate": "2019.6",
+      "endDate": "",
+      "summary": "集中爆发资料文件损坏异常 （地铁物业）",
+      "details": [
+
+        { 
+          "text": "项目安排由我负责整个办公室的文档数据正常写入，在现场分析故障原因后，发现并不是文件的自身损坏，而是由系统内部涉及到网络原理处理机制的问题。"
+        },
+        {
+          "text": "找到问题核心后，为此编写脚本注入系统信任项及站点，在解决了源问题基础上，又进一步提高员工下载与使用软件的安全可靠度。",
+          "comment": "熟悉网络及系统优化"
+        }
+      ]
+    },
+
+    {
+      "company": "",
+      "position": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "协助文档中心运维进行子网划分 （深圳市文档中心）",
+      "details": [
+
+        { 
+          "text": "结合网络拓扑，进行上架服务器及综合布线、Cisco路由终端子网划分、配置邮件等通信端口、ISA防火墙准入规则"
+        },
+        {
+          "text": "找到问题核心后，为此编写脚本注入系统信任项及站点，在解决了源问题基础上，又进一步提高员工下载与使用软件的安全可靠度。",
+          "comment": "网络规划设计一定理解"
+        }
+      ]
+    },
+
+    {
+      "company": "鸿海科技集团",
+      "position": "驻点客服工程师",
+      "startDate": "2018",
+      "endDate": "2019",
+      "summary": "客户审核陪检、设备报修及消磁",
+      "details": [
+        { "text": "向客户展示及详细说明PC参数配置，并协助其完成资产登记", "comment": "高效沟通、细心负责" },
+        { "text": "合理尽心讲解，以求客户满意，为继续供应合作达成双赢共识", "comment": "尊重客户，赢得信赖" },
+        { "text": "对故障PC进行登记并检修,报废项的硬盘进行妥善消磁","comment": "熟悉PC软硬件、安全可靠" }
+      ]
+    },
+    {
+      "company": "",
+      "position": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Windows系统企业级域镜像定制",
+      "details": [
+
+        { 
+          "text": "工作分配由我独立开展企业级系统部署，在与同事及办公人员沟通后，了解办公的生产环境，开始制定需求分析。"
+        },
+        {
+          "text": "根据企业DHCP域控特性定制WIM，使用WTG完成黑、白盒测试，完成系统交付，最终批量规模化搭建及部署作业系统。",
+          "comment": "熟悉企业集群通信控制与调优"
+        }
+      ]
+    }
+  ],
+
+
+  "awards": [
+    {
+      "title": "北邮人论坛推荐网络书",
+      "date": "2018",
+      "awarder": "北京邮电大学",
+      "summary": "所著书籍解决了多数师生及大众连接虚拟专用网路与代理困难的问题，并获推荐"
+    },
+       {
+                  "title": "分析调试Gitalk系统传输值得到肯定",
+                  "date": "2018",
+                  "awarder": "github/Gitalk",
+                  "summary": "更改传输策略代码，成功解决了网络信息传输受阻验证初始化失败的问题"
+        },
+    {
+      "title": "成为dyweb/awesome合作者",
+      "date": "2019",
+      "awarder": "上海交通大学东岳网络工作室",
+      "summary": "此项目有效解决了使用word书写个人资料配置繁琐，以及难以实现快速美观化的问题"
+    }
+  ],
+  "publications": [
+    {
+      "name": "《这本书能让你连接互联网》",
+      "publisher": "",
+      "releaseDate": "2018",
+      "website": "https://hoodiearon.github.io/fq-book",
+      "summary": "创新使用docsify写作开源书，深入浅出讲解建立及部署介质网络原理"
+    },
+    {
+      "name": "开发及部署Hexo个人博客",
+      "publisher": "",
+      "releaseDate": "2018",
+      "website": "https://hoodiearon.github.io/note/2018/03-09/55b3a5a.html",
+      "summary": "改写swig框架等多处web端代码及调试，Google站点数据分析、SEO优化"
+    }
+  ],
+  "skills": [
+    {
+      "name": "网络",
+      "details": [
+        { "text": "TCP/IP簇各层主要相关协议", "comment": "expert" },
+        { "text": "Windows Server各项服务器部署", "comment": "expert" },
+        { "text": "Linux", "comment": "competent" },
+        { "text": "Cisco", "comment": "novice" }
+      ]
+    },
+    {
+      "name": "OA办公",
+      "details": [
+        { "text": "操作系统WIM、WTG定制", "comment": "expert" },
+        { "text": "远程组策略调控与分配", "comment": "expert" },        
+        { "text": "系统软硬件综合故障", "comment": "expert" },
+        { "text": "注册表及脚本自动化", "comment": "competent" }
+      ]
+    },
+    {
+      "name": "开发语言",
+      "details": [
+        { "text": "HTML/CSS", "comment": "expert" },
+        { "text": "JavaScript", "comment": "competent" },
+        { "text": "Python", "comment": "competent" }
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "GitHub",
+      "keywords": [
+        "spacevim 组织成员"
+      ]
+    },
+    {
+      "name": "写日记、发布文章",
+      "keywords": [
+        "《这篇文章让你彻底理清IP地址、子网掩码、网关》"
+      ]
+    },
+    {
+      "name": "常读专业、经济相关书籍",
+      "keywords": [
+        "《计算机网络安全》",
+        "《小狗钱钱》 等"
+      ]
+    },
+    {
+      "name": "乐于参加团队组织的运动",
+      "keywords": [
+        "环市公路骑行",
+        "长距离慢跑"
+      ]
+    }
+  ]
+}

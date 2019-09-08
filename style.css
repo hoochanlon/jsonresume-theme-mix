@@ -76,7 +76,7 @@ a {
 }
 
 .sectionContent .separator {
-  height: 14px;
+  height: 8px;
 }
 
 .sectionLine {
@@ -191,10 +191,20 @@ a {
 
 .sectionContent .title {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 a:hover {
   background-color:#ba0018;
   color:#fff;
+}
+
+h3 {
+  display: block;
+  font-size: 1.1em;
+  margin-block-start: 0.3em;
+  margin-block-end: 0.3em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
