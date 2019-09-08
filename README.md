@@ -4,7 +4,7 @@
 
 因此，在制作简历主题时，将原有的学历专项置为null，在只在侧边联系栏中写入毕业院校及专业；但也保留了此专项在配置文件，以便荣幸高知的你使用该简历主题，更进一步发挥自己的优势。
 
-主题预览 [io/resume](https://hoodiearon.github.io/resume/)
+主题预览：[io/resume](https://hoodiearon.github.io/resume/)
 
 改写简历主题，参考项目启发:
 
