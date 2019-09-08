@@ -28,7 +28,6 @@ node_modules
 .lock-wscript
 
 # User files
-index.html
 
 # Temp files
 *.swp
