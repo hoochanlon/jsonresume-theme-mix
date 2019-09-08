@@ -40,3 +40,7 @@ Press ctrl-c to stop
 * 再使用`resume serve`进行部署
 
 个人信息相关配置就在 resume.json 中，也可根据需要对style.css、resume.hbs进行样式定制。
+
+
+# License
+[MIT License]() © hoodiearon
