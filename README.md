@@ -43,4 +43,5 @@ Press ctrl-c to stop
 
 
 # License
-[MIT License](https://opensource.org/licenses/MIT) © hoodiearon
+
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit-175x39.png?v=103)](https://opensource.org/licenses/mit-license.php)
