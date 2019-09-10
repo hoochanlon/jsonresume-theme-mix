@@ -1,11 +1,11 @@
 {
-  "name": "jsonresume-theme-alon",
+  "name": "jsonresume-theme-mix",
   "version": "0.0.3",
-  "description": "a simple theme for JSON Resume",
+  "description": "A simple theme for JSON Resume",
   "author": "Hoodie Aron",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hoodiearon/jsonresume-theme-alon.git"
+    "url": "git+https://github.com/hoodiearon/jsonresume-theme-mix.git"
   },
   "license": "MIT",
   "dependencies": {
@@ -13,9 +13,9 @@
     "css": "2.2.x"
   },
   "bugs": {
-    "url": "https://github.com/hoodiearon/jsonresume-theme-alon/issues"
+    "url": "https://github.com/hoodiearon/jsonresume-theme-mix/issues"
   },
-  "homepage": "https://github.com/hoodiearon/jsonresume-theme-alon",
+  "homepage": "https://github.com/hoodiearon/jsonresume-theme-mix",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
