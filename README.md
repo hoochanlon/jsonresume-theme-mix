@@ -29,8 +29,10 @@ Press ctrl-c to stop
 ## 个性化定制
 
 * `npm i jsonresume-theme-alon`下载该主题
-* `node_modules` 找到`jsonresume-theme-mix`主题模块
-* 进入该主题模块，再使用`resume serve`进行部署
+* 在 node_modules模块中，找到`jsonresume-theme-mix`并进入
+* 最后在主题目录中使用`resume serve`进行部署即可
+
+***注：若主题脱离node_modules环境，则需要`npm install`重新安装依赖模块呈现效果***
 
 **可在resume.json字段中填入符合自身的简历介绍文字，也可根据需要对style.css、resume.hbs等进行样式定制。**
 
