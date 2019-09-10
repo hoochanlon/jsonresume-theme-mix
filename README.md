@@ -32,7 +32,7 @@ Press ctrl-c to stop
 * 并使用 `npm install` 安装该主题的相应依赖组件
 * 再使用`resume serve`进行部署
 
-**可将resume-cn.json重命名原有的resume.json并替换，进行中字简历的相关配置，也可根据需要对style.css、resume.hbs等进行样式定制。**
+**可在resume.json字段中填入符合自身的简历介绍文字，也可根据需要对style.css、resume.hbs等进行样式定制。**
 
 # License
 

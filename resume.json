@@ -1,114 +1,133 @@
 {
   "basics": {
-    "name": "Richard Hendricks",
-    "label": "Programmer",
+    "name": "胡成龙",
+    "label": "IT运维及技术支持",
     "picture": "",
-    "email": "richard.hendricks@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://richardhendricks.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "email": "hoochanlon@outlook.com",
+    "phone": "(+86)18890107327",
+    "website": "https://github.com/hoodiearon",
+    "summary": "从业网络及系统运维2年，有稳实的经验积累。善于制定、探讨及优化项目实施方案，乐于研究问题核心本质，并不断实践总结，将所得经验分享团队提高工作效率，并提供优质高效的运维服务。",
     "location": {
-      "city": "San Francisco",
-      "countryCode": "US"
+      "city": "湖南科职院",
+      "countryCode": "17届 计算机工程"
     },
     "profiles": [
       {
-        "url": "http://twitter.com/neutralthoughts"
-      },
-      {
-        "url": "https://soundcloud.com/dandymusicnl"
+        "url": "https://hoodiearon.github.io/about"
       }
     ]
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013",
-      "endDate": "2014",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "company": "神州动力数码有限公司",
+      "position": "IT运维工程师",
+      "startDate": "2019.6",
+      "endDate": "",
+      "summary": "集中爆发资料文件损坏异常 （地铁物业）",
       "details": [
-        { "text": "Build an algorithm for artist to detect if their music was violating copy right infringement laws", "comment": "Java" },
-        { "text": "Optimized an algorithm that holds the current world record for Weisman Scores", "comment": "c++" },
-        { "text": "Successfully won Techcrunch Disrupt" }
+
+        { 
+          "text": "项目安排由我负责整个办公室的文档数据正常写入，在现场分析故障原因后，发现并不是文件的自身损坏，而是由系统内部涉及到网络原理处理机制的问题。"
+        },
+        {
+          "text": "找到问题核心后，为此编写脚本注入系统信任项及站点，在解决了源问题基础上，又进一步提高员工下载与使用软件的安全可靠度。"
+        }
       ]
-    }
-  ],
-  "volunteer": [
+    },
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012",
-      "endDate": "2013",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
+      "summary": "Windows系统企业级域镜像定制 （长城证券）",
+      "details": [
+
+        { 
+          "text": "工作分配由我独立开展企业级系统部署，在与同事及办公人员沟通后，了解办公的生产环境，开始制定需求分析。"
+        },
+        {
+          "text": "根据DHCP域控特性定制WIM，配置邮件等通信端口、子网划分、ISA防火墙准入规则，使用WTG完成黑、白盒测试，完成系统交付，最终批量规模化搭建及部署作业系统。"
+        }
+      ]
+    },
+    {         
+      "summary": "中兴客户审核陪检、设备报修及消磁",
+      "details": [
+        { 
+          "text": "代表联想供应商向客户展示及详细说明PC参数配置，并协助其完成资产登记，合理尽心讲解，以求客户满意，为继续供应合作达成双赢共识；对故障PC进行登记并检修,报废项的PC硬盘进行妥善消磁。"
+        }
       ]
     }
   ],
-  "education": [
-    {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011",
-      "endDate": "2014",
-      "gpa": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
-    }
-  ],
+
+
   "awards": [
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
+      "title": "北邮人论坛推荐网络书",
+      "awarder": "北京邮电大学",
+      "summary": "所著书籍解决了多数师生及大众连接介质网络困难的问题，并获推荐"
+    },
+       {
+                  "title": "分析调试Gitalk系统传输值得到肯定",
+                  "awarder": "github/Gitalk",
+                  "summary": "更改传输策略代码，成功解决了网络信息传输受阻验证初始化失败的问题"
+        }
   ],
   "publications": [
     {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "name": "《这本书能让你连接互联网》",
+      "publisher": "",
+      "website": "https://hoodiearon.github.io/fq-book",
+      "summary": "创新使用docsify写作开源书，深入浅出讲解建立及部署介质网络原理"
     }
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "网络",
       "details": [
-        { "text": "HTML", "comment": "expert" },
-        { "text": "CSS", "comment": "expert" },
-        { "text": "Javascript", "comment": "expert" }
+        { "text": "TCP/IP簇各层主要协议", "comment": "expert" },
+        { "text": "Linux", "comment": "competent" },
+        { "text": "Cisco", "comment": "novice" }
       ]
     },
     {
-      "name": "Compression",
+      "name": "OA办公",
       "details": [
-        { "text": "Mpeg", "comment": "competent" },
-        { "text": "MP4", "comment": "competent" },
-        { "text": "GIF", "comment": "novice" }
+        { "text": "组策略", "comment": "expert" },        
+        { "text": "Win Server", "comment": "expert" },
+        { "text": "办公设备综合检修", "comment": "competent" }
       ]
-    }
-  ],
-  "languages": [
+    },
     {
-      "language": "English",
-      "fluency": "Native speaker"
+      "name": "脚本语言",
+      "details": [
+        { "text": "Python", "comment": "expert" },
+        { "text": "batch", "comment": "competent" },
+        { "text": "shell", "comment": "novice" }
+      ]
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "GitHub",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "spacevim 组织成员"
+      ]
+    },
+    {
+      "name": "写日记、发布文章",
+      "keywords": [
+        "《这篇文章让你彻底理清IP地址、子网掩码、网关》"
+      ]
+    },
+    {
+      "name": "常读专业、经济相关书籍",
+      "keywords": [
+        "《计算机网络安全》",
+        "《小狗钱钱》 等"
+      ]
+    },
+    {
+      "name": "乐于参加团队组织的运动",
+      "keywords": [
+        "环市公路骑行",
+        "长距离慢跑"
       ]
     }
   ]
