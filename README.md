@@ -1,12 +1,12 @@
 # 个人简历展示
 
-此简历项目基于 [ainsleyc/jsonresume-theme-onepage](https://themes.jsonresume.org/theme/onepage) 进行改写
+此简历项目在 [ainsleyc/jsonresume-theme-onepage](https://themes.jsonresume.org/theme/onepage) 原基础上进行的改写，主题预览：[io/resume](https://hoodiearon.github.io/resume/)
 
 改写的初衷是为了做一份简致而色彩又不失单调的个人简历主题模板。同时，我发很多求职简历模板对学历都有一个专项来介绍，这对多数专科生并不大友好，反而让自己劣势过于显眼了...
 
 因此，在改写及校调简历主题时，将原有的学历专项置为null，在只在侧边联系栏中写入毕业院校及专业；但也保留了此专项在配置文件，以便荣幸高知的你使用该简历主题，更进一步发挥自己的优势。
 
-主题预览：[io/resume](https://hoodiearon.github.io/resume/)
+
 
 
 ## 安装与初始化及部署
