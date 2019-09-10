@@ -28,7 +28,7 @@ Press ctrl-c to stop
 
 ## 个性化定制
 
-* `npm i jsonresume-theme-alon`下载该主题
+* `npm i jsonresume-theme-mix`下载该主题
 * 在 node_modules模块中，找到`jsonresume-theme-mix`并进入
 * 最后在主题目录中使用`resume serve`进行部署即可
 
