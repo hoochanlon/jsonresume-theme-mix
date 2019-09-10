@@ -1,6 +1,6 @@
 # 个人简历展示
 
-简历为复刻改写，原简历页面地址: [ainsleyc/jsonresume-theme-onepage](https://themes.jsonresume.org/theme/onepage)
+此简历项目基于 [ainsleyc/jsonresume-theme-onepage](https://themes.jsonresume.org/theme/onepage) 进行改写
 
 改写的初衷是为了做一份简致而色彩又不失单调的个人简历主题模板。同时，我发很多求职简历模板对学历都有一个专项来介绍，这对多数专科生并不大友好，反而让自己劣势过于显眼了...
 
