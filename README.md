@@ -4,7 +4,7 @@
 
 因此，在改写及校调简历主题时，将原有的学历专项置为null，在只在侧边联系栏中写入毕业院校及专业；但也保留了此专项在配置文件，以便荣幸高知的你使用该简历主题，更进一步发挥自己的优势。
 
-主题预览 [hoodieaon/resume](https://hoodiearon.github.io/jsonresume-theme-alon)
+主题预览 [hoodieaon/resume](https://hoodiearon.github.io/jsonresume-theme-mix)
 
 开发简历主题，参考项目启发:
 
@@ -29,7 +29,7 @@ Press ctrl-c to stop
 ## 个性化定制
 
 * `npm i jsonresume-theme-alon`下载该主题
-* `node_modules` 找到`jsonresume-theme-alon`主题模块
+* `node_modules` 找到`jsonresume-theme-mix`主题模块
 * 进入该主题模块，再使用`resume serve`进行部署
 
 **可在resume.json字段中填入符合自身的简历介绍文字，也可根据需要对style.css、resume.hbs等进行样式定制。**
