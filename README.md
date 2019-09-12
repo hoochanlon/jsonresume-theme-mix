@@ -6,13 +6,6 @@
 
 主题预览 [hoodieaon/resume](https://hoodiearon.github.io/jsonresume-theme-mix)
 
-开发简历主题，参考项目启发:
-
-* [nuterian/resume](https://github.com/nuterian/resume)
-* [github.com/jsonresume](https://github.com/jsonresume)
-* [ainsleyc/jsonresume-theme-onepage](https://github.com/ainsleyc/jsonresume-theme-onepage)
-
-
 ## 安装与初始化及部署
 
 **环境：[git](https://git-scm.com/)、[nodejs](https://nodejs.org/zh-cn/)**
