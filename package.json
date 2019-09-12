@@ -1,6 +1,6 @@
 {
   "name": "jsonresume-theme-mix",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "A simple theme for JSON Resume",
   "author": "Hoodie Aron",
   "repository": {
@@ -20,5 +20,9 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "keywords": [
+    "theme",
+    "JsonResume"
+  ]
 }

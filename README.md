@@ -32,10 +32,32 @@ Press ctrl-c to stop
 * 在 node_modules模块中，找到`jsonresume-theme-mix`并进入
 * 最后在主题目录中使用`resume serve`进行部署即可
 
-***注：若主题脱离node_modules环境，则需要`npm install`重新安装依赖模块呈现效果***
+可在resume.json字段中填入符合自身的简历介绍文字，也可根据需要对style.css、resume.hbs等进行样式定制。
 
-**可在resume.json字段中填入符合自身的简历介绍文字，也可根据需要对style.css、resume.hbs等进行样式定制。**
+注：若主题脱离node_modules环境，则需要`npm install`重新安装依赖模块呈现效果
+
+[npm/jsonresume-theme-mix/readme](https://www.npmjs.com/package/jsonresume-theme-mix)
+
+## 希望对初涉社会求职的朋友们能有所帮助
+
+* [如何写一份优秀的前端简历](https://github.com/nzbin/resume-boilerplate)
+* [apachecn/TI-Analysis](https://github.com/apachecn/TI-Analysis) 
+* [同济大学-博士-王荣昌 给初涉社会年轻人的忠告](http://blog.sciencenet.cn/blog-348492-375365.html)
 
 # License
 
 [![MIT Licence](https://img.shields.io/badge/mit-license-red.svg)](https://opensource.org/licenses/mit-license.php)
+
+<!-- 
+## 碰壁及失业走所过来的话
+
+就业相对来说并不是易事，何况还有招转培等各方面的陷阱，这大大增加了找工作的难度；总结下自己所能，概述出自己所能占职业需求技能的总占比，再结合搜索、问答论坛对自己所长的一个专业方向定位的相关回答，分析出自己的所能优势的所在职业定位。
+
+分析出自己的所能优势的所在职业定位，并求职投递该方向。简历展示的技能呈现的效果，是否符合了对方的用人需求，不知道该写什么，用企业网站所示的成功案例，以彼之道还施彼身；当然前提是需要有这方面的知识原理储备。不了解的知识原理的话，不过 —— 还可以学习啊！学着学着自然就会了。
+
+期望职位是否满足该职位的实际需求，又存在多少落差值
+通过事件展示自己所长解决了该企业存在的需求难题
+尝试工作基层职位，体会一段社会生活、多接触人和事，认真体会感悟，这样就不会太过理想化
+
+太过理想化，不考虑实际情况，只会越来越荒诞 
+-->
