@@ -1,0 +1,410 @@
+<!doctype html>
+<html>
+	<head>
+
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
+
+	<title>胡成龙</title>
+
+	<style>
+	body {
+  background: #EEEEEE;
+  font: 14px "Times New Roman", Times, sans-serif;
+  line-height: 1.4;
+  margin: 40px 0;
+}
+em {
+  color: #999;
+}
+p {
+  line-height: 1.4;
+}
+ul {
+  margin-bottom: 0;
+}
+li {
+  margin-bottom: 2px;
+}
+a {
+  text-decoration: none;
+}
+#resume {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 80px 100px;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 4px #aaa;
+  -webkit-box-shadow: 2px 2px 4px #aaa;
+}
+.coursesList {
+  width: 28%;
+  vertical-align: top;
+  display: inline-block;
+}
+.largeFont {
+  font-size: 20px;
+}
+.smallFont {
+  font-size: 13px;
+}
+.sectionBlock {
+  display: flex;
+  width: 100%;
+}
+.sectionName {
+  width: 18%;
+  vertical-align: top;
+  display: inline-block;
+}
+.sectionContent {
+  width: 80%;
+  vertical-align: top;
+  display: inline-block;
+}
+.sectionContent ul {
+  padding-left: 20px;
+  margin-top: 6px;
+  list-style-type: circle;
+}
+.sectionContent .title {
+  font-weight: bold;
+}
+.sectionContent .date {
+  float: right;
+}
+.sectionContent .separator {
+  height: 8px;
+}
+.sectionLine {
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #CFCFCF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.divider {
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.summary {
+  margin-top: 6px;
+}
+.skillBlock {
+  margin-bottom: 4px;
+}
+.jobBlock {
+  page-break-inside: avoid;
+}
+/* Media Queries */
+@media only screen and (max-width: 40em) {
+  body {
+    margin: 0;
+    font-size: 14px;
+  }
+  #resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0.5em 1em;
+    border: none;
+  }
+  .sectionBlock {
+    flex-direction: column;
+  }
+  .sectionContent {
+    width: 100%;
+  }
+  .sectionContent .date {
+    padding-right: 2em;
+  }
+  .sectionName {
+    width: auto;
+  }
+  .largeFont {
+    font-size: 20px;
+  }
+  .smallFont {
+    font-size: 14px;
+  }
+}
+@media print {
+  body {
+    background: #FFFFFF;
+  }
+  #resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0px 0px;
+    border: 0px;
+    /* background: #fff; */
+    background: #fefefe;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  a {
+    color: black;
+  }
+}
+#nameBlock{
+  float: left;
+}
+#basicsBlock{
+  float: right;
+}
+.sectionLine{
+  clear:both;
+}
+.sectionName{
+  font-size: 20px;
+  color: brown
+}
+.myname {
+  font-size: 40px;
+  font-weight: bold;
+  color: brown;
+  font-family: cursive;
+}
+.label{
+  font-size: 16px;
+}
+#basicsBlock.smallFont{
+  font-size: 15px;
+}
+.sectionContent .title {
+  font-weight: bold;
+  font-size: 16px;
+}
+a:hover {
+  background-color:#ba0018;
+  color:#fff;
+}
+h3 {
+  display: block;
+  font-size: 1.1em;
+  margin-block-start: 0.3em;
+  margin-block-end: 0.3em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+	</style>
+
+	</head>
+	<body>
+
+	<div id='resume'>
+  <div id='nameBlock' class='largeFont'>
+    <span class='myname'>
+      胡成龙
+    </span><br>
+    <span class='label'>IT运维及技术支持</span>
+  </div>
+  <div id='basicsBlock' class='smallFont'>
+    <div class='contactBlock'>
+      <span class='phone'>(+86)18890107327</span><br>
+      <a href="mailto:hoochanlon@outlook.com">hoochanlon@outlook.com</a><br>
+      <a href="https://github.com/hoodiearon">https://github.com/hoodiearon</a><br>
+
+
+        <span class='address'>
+          湖南科职院 17届 计算机工程
+        </span>
+    </div>
+
+  </div>
+   <div class='sectionLine'></div>
+
+  <div id='summaryBlock' class="sectionBlock">
+    <div class='sectionName'>
+      <span>自我概述</span>
+    </div>
+    <div class='sectionContent'>
+      <span>从业网络及系统运维2年，有稳实的经验积累。善于制定、探讨及优化项目实施方案，乐于研究问题核心本质，并不断实践总结，将所得经验分享团队提高工作效率，并提供优质高效的运维服务。</span>
+    </div>
+  </div>
+  <div class='sectionLine'></div>
+
+  <div id='workBlock' class="sectionBlock">
+    <div class='sectionName'>
+      <span>项目经验</span>
+    </div>
+    <div class='sectionContent'>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          神州动力数码有限公司 - IT运维工程师
+	        </span>
+	        <span class='date'>
+	          2019.6 &mdash; Present
+	        </span>
+	      </div>
+	      <div><a href=''></a></div>
+
+	      <p class='highlights'>
+         <h3> 集中爆发资料文件损坏异常 （地铁物业）</h3>
+	      </p>
+	      <ul class='details'>
+	        <li>项目安排由我负责整个办公室的文档数据正常写入，在现场分析故障原因后，发现并不是文件的自身损坏，而是由系统内部涉及到网络原理处理机制的问题。</li>
+	        <li>找到问题核心后，为此编写脚本注入系统信任项及站点，在解决了源问题基础上，又进一步提高员工下载与使用软件的安全可靠度。</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          
+	        </span>
+	      </div>
+	      <div><a href=''></a></div>
+
+	      <p class='highlights'>
+         <h3> Windows系统企业级域镜像定制 （长城证券）</h3>
+	      </p>
+	      <ul class='details'>
+	        <li>工作分配由我独立开展企业级系统部署，在与同事及办公人员沟通后，了解办公的生产环境，开始制定需求分析。</li>
+	        <li>根据DHCP域控特性定制WIM，配置邮件等通信端口、子网划分、ISA防火墙准入规则，使用WTG完成黑、白盒测试，完成系统交付，最终批量规模化搭建及部署作业系统。</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          
+	        </span>
+	      </div>
+	      <div><a href=''></a></div>
+
+	      <p class='highlights'>
+         <h3> 中兴客户审核陪检、设备报修及消磁</h3>
+	      </p>
+	      <ul class='details'>
+	        <li>代表联想供应商向客户展示及详细说明PC参数配置，并协助其完成资产登记，合理尽心讲解，以求客户满意，为继续供应合作达成双赢共识；对故障PC进行登记并检修,报废项的PC硬盘进行妥善消磁。</li>
+	      </ul>
+	      
+			</div>
+    </div>
+  </div>
+  <div class='sectionLine'></div>
+
+	<div id='skills' class="sectionBlock">
+    <div class='sectionName'>
+      <span>专业技能</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='skillBlock'>
+        <span class='title'>网络:</span>
+          <span>TCP/IP簇各层主要协议 <em>(expert)</em>, </span>
+          <span>Linux <em>(competent)</em>, </span>
+          <span>Cisco <em>(novice)</em></span>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>OA办公:</span>
+          <span>组策略 <em>(expert)</em>, </span>
+          <span>Win Server <em>(expert)</em>, </span>
+          <span>办公设备综合检修 <em>(competent)</em></span>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>脚本语言:</span>
+          <span>Python <em>(expert)</em>, </span>
+          <span>batch <em>(competent)</em>, </span>
+          <span>shell <em>(novice)</em></span>
+      </div>
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+
+	<div id='publications'>
+    <div class='sectionName'>
+      <span>作品展示</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='blockHeader'>
+        <span class='title'>
+          《这本书能让你连接互联网》
+        </span>
+      </div>
+      <div class='website'>
+        <a href='https://hoodiearon.github.io/fq-book'>https://hoodiearon.github.io/fq-book</a>
+      </div>
+      <ul class='highlights'>
+        <li>创新使用docsify写作开源书，深入浅出讲解建立及部署介质网络原理</li>
+      </ul>
+      
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+	<div id='awards' class="sectionBlock">
+    <div class='sectionName'>
+      <span>所获赞誉</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='blockHeader'>
+        <span class='title'>
+          北邮人论坛推荐网络书 &nbsp; 北京邮电大学
+        </span>
+      </div>
+      <ul class='highlights'>
+        <li>所著书籍解决了多数师生及大众连接介质网络困难的问题，并获推荐</li>
+      </ul>
+      <div class='separator'></div>
+      <div class='blockHeader'>
+        <span class='title'>
+          分析调试Gitalk系统传输值得到肯定 &nbsp; github/Gitalk
+        </span>
+      </div>
+      <ul class='highlights'>
+        <li>更改传输策略代码，成功解决了网络信息传输受阻验证初始化失败的问题</li>
+      </ul>
+      
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+
+
+
+
+
+	<div id='interests' class="sectionBlock">
+    <div class='sectionName'>
+      <span>兴趣爱好</span>
+    </div>
+    <div class='sectionContent'>
+      <li class='name'>GitHub</span><!--
+      --><span class='keywords'> <em>[
+        spacevim 组织成员<!--
+        -->
+      ]</em></span><!--
+      --><span></span>
+      <li class='name'>写日记、发布文章</span><!--
+      --><span class='keywords'> <em>[
+        《这篇文章让你彻底理清IP地址、子网掩码、网关》<!--
+        -->
+      ]</em></span><!--
+      --><span></span>
+      <li class='name'>常读专业、经济相关书籍</span><!--
+      --><span class='keywords'> <em>[
+        《计算机网络安全》<!--
+        -->
+        《小狗钱钱》 等<!--
+        -->
+      ]</em></span><!--
+      --><span></span>
+      <li class='name'>乐于参加团队组织的运动</span><!--
+      --><span class='keywords'> <em>[
+        环市公路骑行<!--
+        -->
+        长距离慢跑<!--
+        -->
+      ]</em></span><!--
+      -->
+    </div>
+    </ul>
+	</div>
+
+	</body>
+</html>
