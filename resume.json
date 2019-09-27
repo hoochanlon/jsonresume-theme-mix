@@ -6,7 +6,7 @@
     "email": "hoochanlon@outlook.com",
     "phone": "(+86)18890107327",
     "website": "https://github.com/hoodiearon",
-    "summary": "从业网络及系统运维2年，有稳实的经验积累。善于制定、探讨及优化项目实施方案，乐于研究问题核心本质，并不断实践总结，将所得经验分享团队提高工作效率，并提供优质高效的运维服务。",
+    "summary": "从业网络及系统运维2年，有稳实的经验积累。善于研究及制定项目优化实施方案，并不断实践总结，乐于将所得经验分享团队提高工作效率，并提供优质高效的运维服务。",
     "location": {
       "city": "湖南科职院",
       "countryCode": "17届 计算机工程"
@@ -35,22 +35,23 @@
       ]
     },
     {
-      "summary": "Windows系统企业级域镜像定制 （长城证券）",
+      "summary": "企业镜像定制与系统工作站配置 （长城证券）",
       "details": [
 
         { 
-          "text": "工作分配由我独立开展企业级系统部署，在与同事及办公人员沟通后，了解办公的生产环境，开始制定需求分析。"
-        },
-        {
-          "text": "根据DHCP域控特性定制WIM，配置邮件等通信端口、子网划分、ISA防火墙准入规则，使用WTG完成黑、白盒测试，完成系统交付，最终批量规模化搭建及部署作业系统。"
+          "text": "工作分配由我独立开展企业级系统部署，根据DHCP域控特性定制WIM；以及配置工作站通信端口、各项应用层服务器、ISA防火墙准入规则等。"
         }
       ]
     },
-    {         
-      "summary": "中兴客户审核陪检、设备报修及消磁",
+    {
+      "company": "鸿海科技集团",
+      "position": "CQE客服工程师",
+      "startDate": "2017.10",
+      "endDate": "2019.5",
+      "summary": "与事业群客户对电子信息设备进行陪检及检修（IDSBG）",
       "details": [
         { 
-          "text": "代表联想供应商向客户展示及详细说明PC参数配置，并协助其完成资产登记，合理尽心讲解，以求客户满意，为继续供应合作达成双赢共识；对故障PC进行登记并检修,报废项的PC硬盘进行妥善消磁。"
+          "text": "代表事业群向客户展示及详细说明电脑等设备配置参数，并协助其完成资产登记，对故障项进行登记并检修，降低了集团投入设备成本，也更促进了双方的共赢合作。"
         }
       ]
     }
@@ -63,64 +64,44 @@
       "awarder": "北京邮电大学",
       "summary": "所著书籍解决了多数师生及大众连接介质网络困难的问题，并获推荐"
     },
-       {
-                  "title": "分析调试Gitalk系统传输值得到肯定",
-                  "awarder": "github/Gitalk",
-                  "summary": "更改传输策略代码，成功解决了网络信息传输受阻验证初始化失败的问题"
-        }
+
+        {
+          "title": "将SNAP协议写入 zh.wikipedia.org",
+          "awarder": "维基百科",
+          "summary": "填补了中文维基对子网接入协议概述的空缺，为多数网工提供了解该协议的参考文献"
+}
   ],
   "publications": [
     {
       "name": "《这本书能让你连接互联网》",
       "publisher": "",
       "website": "https://hoodiearon.github.io/fq-book",
-      "summary": "创新使用docsify写作开源书，深入浅出讲解建立及部署介质网络原理"
+      "summary": "深入浅出讲解建立及部署介质网络原理，解决了大众普遍进行跨国交流网络传输困难等"
     }
   ],
   "skills": [
     {
       "name": "网络",
       "details": [
-        { "text": "TCP/IP簇各层主要协议", "comment": "expert" },
-        { "text": "Linux", "comment": "competent" },
-        { "text": "Cisco", "comment": "novice" }
+        { "text": "TCP/IP", "comment": "expert" },
+        { "text": "Cisco", "comment": "competent" },
+        { "text": "linux", "comment": "novice" },
+        { "text": "Python", "comment": "expert" }
       ]
     },
     {
       "name": "OA办公",
       "details": [
-        { "text": "组策略", "comment": "expert" },        
-        { "text": "Win Server", "comment": "expert" },
+        { "text": "组策略及服务器配置", "comment": "expert" },        
         { "text": "办公设备综合检修", "comment": "competent" }
-      ]
-    },
-    {
-      "name": "脚本语言",
-      "details": [
-        { "text": "Python", "comment": "expert" },
-        { "text": "batch", "comment": "competent" },
-        { "text": "shell", "comment": "novice" }
       ]
     }
   ],
   "interests": [
     {
-      "name": "GitHub",
+      "name": "喜好阅读及发布文章",
       "keywords": [
-        "spacevim 组织成员"
-      ]
-    },
-    {
-      "name": "写日记、发布文章",
-      "keywords": [
-        "《这篇文章让你彻底理清IP地址、子网掩码、网关》"
-      ]
-    },
-    {
-      "name": "常读专业、经济相关书籍",
-      "keywords": [
-        "《计算机网络安全》",
-        "《小狗钱钱》 等"
+        "《TI-Analysis》、《租房笔记》"
       ]
     },
     {
@@ -128,6 +109,12 @@
       "keywords": [
         "环市公路骑行",
         "长距离慢跑"
+      ]
+    },
+    {
+      "name": "Github",
+      "keywords": [
+        "参与测试、反馈及提供相关代码"
       ]
     }
   ]
