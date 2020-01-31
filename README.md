@@ -12,7 +12,8 @@
 
 1. 安装jsonResume `npm install -g resume-cli`
 2. 新建文件夹作为你的简历项目，`resume init`在简历目录进行初始化，填入`name`、`email` 值
-3. 使用 `resume serve` 看到此消息jsonResume已经搭建成功了，访问 http://localhost:4000 就行
+3. `npm install`
+4. 使用 `resume serve` 看到此消息jsonResume已经搭建成功了，访问 http://localhost:4000 就行
 
 ```
 Preview: http://localhost:4000
