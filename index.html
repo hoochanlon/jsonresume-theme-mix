@@ -1,0 +1,465 @@
+<!doctype html>
+<html>
+	<head>
+
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
+
+	<title>胡成龙</title>
+
+	<style>
+	body {
+  background: #EEEEEE;
+  font: 15px "Times New Roman", Times, sans-serif;
+  line-height: 1.4;
+  margin: 40px 0;
+}
+em {
+  color: #999;
+}
+p {
+  line-height: 1.4;
+}
+ul {
+  margin-bottom: 0;
+}
+li {
+  margin-bottom: 2px;
+}
+a {
+  text-decoration: none;
+}
+
+#resume {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 80px 100px;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 4px #aaa;
+  -webkit-box-shadow: 2px 2px 4px #aaa;
+}
+
+.coursesList {
+  width: 28%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.largeFont {
+  font-size: 20px;
+}
+
+.smallFont {
+  font-size: 13px;
+}
+
+.sectionBlock {
+  display: flex;
+  width: 100%;
+}
+
+.sectionName {
+  width: 18%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.sectionContent {
+  width: 80%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.sectionContent ul {
+  padding-left: 20px;
+  margin-top: 6px;
+  list-style-type: circle;
+}
+
+.sectionContent .title {
+  font-weight: bold;
+}
+
+.sectionContent .date {
+  float: right;
+}
+
+.sectionContent .separator {
+  height: 8px;
+}
+
+/* 公司名称块 */
+.blockHeader{
+  font: 18px "Times New Roman", Times, sans-serif;
+  color: brown;
+}
+
+
+.sectionLine {
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #CFCFCF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.divider {
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.summary {
+  margin-top: 6px;
+}
+
+.skillBlock {
+  margin-bottom: 4px;
+}
+
+.jobBlock {
+  page-break-inside: avoid;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 40em) {
+  body {
+    margin: 0;
+    font-size: 14px;
+  }
+  #resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0.5em 1em;
+    border: none;
+  }
+  .sectionBlock {
+    flex-direction: column;
+  }
+  .sectionContent {
+    width: 100%;
+  }
+  .sectionContent .date {
+    padding-right: 2em;
+  }
+  .sectionName {
+    width: auto;
+  }
+  .largeFont {
+    font-size: 20px;
+  }
+  .smallFont {
+    font-size: 14px;
+  }
+}
+
+@media print {
+  body {
+    background: #FFFFFF;
+  }
+  #resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0px 0px;
+    border: 0px;
+    /* background: #fff; */
+    background: #fefefe;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  a {
+    color: black;
+  }
+}
+#nameBlock{
+  float: left;
+}
+
+#basicsBlock{
+  float: right;
+}
+
+.sectionLine{
+  clear:both;
+}
+
+
+.sectionName{
+  font-size: 20px;
+  color: brown
+}
+
+.myname {
+  font-size: 40px;
+  font-weight: bold;
+  color: brown;
+  font-family: cursive;
+}
+
+.label{
+  font-size: 16px;
+}
+
+#basicsBlock.smallFont{
+  font-size: 15px;
+}
+
+.sectionContent .title {
+  font-weight: bold;
+  /* font-size: 20px; */
+}
+
+a:hover {
+  background-color:#ba0018;
+  color:#fff;
+}
+
+h3 {
+  display: block;
+  font-size: 1.1em;
+  margin-block-start: 0.3em;
+  margin-block-end: 0.3em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+	</style>
+
+	</head>
+	<body>
+
+	<div id='resume'>
+  <div id='nameBlock' class='largeFont'>
+    <span class='myname'>
+      胡成龙
+    </span><br>
+    <span class='label'>IT运维及网络工程师</span>
+  </div>
+  <div id='basicsBlock' class='smallFont'>
+    <div class='contactBlock'>
+      <span class='phone'>(+86)18890107327</span><br>
+      <a href="mailto:hoochanlon@outlook.com">hoochanlon@outlook.com</a><br>
+      <a href="https://github.com/hoochanlon">https://github.com/hoochanlon</a><br>
+
+
+        <span class='address'>
+          湖南科职院 17届 计算机网络
+        </span>
+    </div>
+
+  </div>
+   <div class='sectionLine'></div>
+
+
+
+	<div id='myself' class="sectionBlock">
+    <div class='sectionName'>
+      <span>自我概述</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='myselfBlock'>
+                    <span>从业运维工作2年，有稳实的经验积累。善于研究及制定项目优化实施方案，乐于听取同事改进意见，并不断实践总结。常将所得经验分享团队提高工作效率，并提供优质高效的运维服务。</span>
+      </div>
+      <div class='myselfBlock'>
+                    <span>爱翻阅相关网络原理的博客，并试验证其真伪对错，进行总结及发布文章。活跃GitHub开源社区，维护软件、文档等项目，并参与测试，提交自己的反馈建议。</span>
+      </div>
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+
+
+
+
+
+
+
+  <div id='workBlock' class="sectionBlock">
+    <div class='sectionName'>
+      <span>项目经验</span>
+    </div>
+    <div class='sectionContent'>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          神州动力数码有限公司 - 运维工程师
+	        </span>
+	        <span class='date'>
+	          2019.6 &mdash; Present
+	        </span>
+	      </div>
+	      <div><a href=''></a></div>
+
+	      <p class='highlights'>
+         <h3> 督导平安总行系统标装</h3>
+	      </p>
+	      <ul class='details'>
+	        <li>银行对安全防控专项均比多数企业严苛。在安全方面，曾与360代理商工程师合作处理深圳大学机房感染永恒之蓝事件，必须深入理解银行对杀软配置、组策略安全防控的意义及作用，以避免在安排桌面运维工程师进行系统标装过程中出现大范围安全隐患。</li>
+	        <li>编写项目实施文档，指明在安防配置项中易出现的误操作，要求每台主机的安全防控组件，必须与客户共同确认安全组件防控是否与总台信息同步，以确保标装项目顺利完成。</li>
+	        <li>标装期间结识了微软、思杰等厂商探讨过关于端口隔离、容灾备份等话题，在网络安全及域控、桌面方面有着较广的人际。</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          
+	        </span>
+	      </div>
+	      <div><a href=''></a></div>
+
+	      <p class='highlights'>
+         <h3> 华夏银行年终信息运维</h3>
+	      </p>
+	      <ul class='details'>
+	        <li>年终期间由我负责分行大厦中低区的信息运维，会计部职员文档资料损坏异常致电我后，赶入现场分析故障原因，发现并不是文件损坏，而是由系统防毒机制触发其安全性锁定。在添加信任站点后，解决了此类问题。</li>
+	        <li>信息接入方面为调入分行的同事连接分行内网，需进行端口测线及机房接线，经交换机调用ARP表查询主机IP并配置，确保主机与总控内网客户端连接成功。</li>
+	        <li>为每次网络、软件、外设故障异常处理，编写内部信息运维问题汇总文档。以提高工作效率，带来更高效和更专业的服务。</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          鸿海科技集团 - CQE工程师
+	        </span>
+	        <span class='date'>
+	          2018.10 &mdash; 2019.5
+	        </span>
+	      </div>
+	      <div><a href=''></a></div>
+
+	      <p class='highlights'>
+         <h3> 驻原厂事业群质量管理（IDSBG）</h3>
+	      </p>
+	      <ul class='details'>
+	        <li>曾派遣到南京乐金（LG）考察学习，后调入原厂事业群驻场团队，并负责调度优化事业群产品售后生产运作。需对产品评估与质量分析，给出生产改善选定意见。与客户现场核实产品相关的质量问题，在不违客户产品检验规格标准的情况下，指导生产操作员进行重审检查。</li>
+	        <li>对每期季度生产的进展进行图表绘制，以及编写报表向上级高工汇报，以此可确切落实下一步生产计划筹备工作。多次代理上级与SQE客户完成品质样品检验交接。</li>
+	      </ul>
+	      
+			</div>
+    </div>
+  </div>
+  <div class='sectionLine'></div>
+
+	<div id='skills' class="sectionBlock">
+    <div class='sectionName'>
+       <span>工作职能</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='skillBlock'>
+        <span class='title'>Management</span>
+           <li>善于有效规划制定项目实施方案与编写工作季度报告 </li>
+           <li>合理分配项目工作任务，对计划外的延期，也会做充分考虑 </li>
+           <li>帮助员工解决困难，激发员工热情，促进同事间友好处事 </li>
+           <li>审核工作绩效并向上级请示，必要时进行督导工作</li>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>Desktop</span>
+           <li>熟悉Win Server部署常见应用服务器及管理 <em>(AD,DHCP,DNS,FTP)</em> </li>
+           <li>熟悉企业版杀毒软件数据加密、防火墙、端口隔离等总控操作 </li>
+           <li>掌握大多数电脑主机及品牌打印机硬件报障的检修 </li>
+           <li>具有BAT批处理等部分脚本语言代码实践编写能力</li>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>Network</span>
+           <li>理解路由协议原理，掌握Cisco路由协议配置 <em>(OSPF,EIGRP,RIP2)</em> </li>
+           <li>理解交换协议原理，对堆叠做过一定了解。 <em>(STP,RSTP,MSTP)</em> </li>
+           <li>能进行主机端口连接测线，机房交换机理线等布线作业</li>
+      </div>
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+
+	<div id='publications'>
+    <div class='sectionName'>
+      <span>作品展示</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='blockHeader'>
+        <span class='title'>
+          《这本书能让你连接互联网》
+        </span>
+      </div>
+      <div class='website'>
+        <a href='https://hoochanlon.github.io/fq-book'>https://hoochanlon.github.io/fq-book</a>
+      </div>
+      <ul class='highlights'>
+        <li>向了解网络知识的新人提供上网的方式与获取网站信息的技巧，并对连接虚拟私有网络及代理做简要的上手配置，并对此做相关的原理说明。
+书中接入网络的方式也可作为程序员参考下载开源组件的网络优化方法。</li>
+      </ul>
+      
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+	<div id='awards' class="sectionBlock">
+    <div class='sectionName'>
+      <span>所获赞誉</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='blockHeader'>
+        <span class='title'>
+          北邮人论坛推荐网络书 &nbsp; 北京邮电大学
+        </span>
+      </div>
+      <ul class='highlights'>
+        <li>所著开源书籍曾解决多数非网络或非计算机专业领域的学生、人士等因配置不当连接网络而受到阻塞不可正常互PING的问题，使各区域主机间与服务器接入能互相通信正常，并获推荐。</li>
+      </ul>
+      
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+
+
+
+
+
+	<div id='interests' class="sectionBlock">
+    <div class='sectionName'>
+      <span>兴趣爱好</span>
+    </div>
+    <div class='sectionContent'>
+      <li class='name'>Github</span><!--
+      --><span class='keywords'> <em>[
+        建立7K Star的资源共享库，向大众分享资源及个人作品<!--
+        -->
+      ]</em></span><!--
+      --><span></span>
+      <li class='name'>喜好阅读及发布文章</span><!--
+      --><span class='keywords'> <em>[
+        网络学习笔记<!--
+        -->
+      ]</em></span><!--
+      --><span></span>
+      <li class='name'>乐于参与组织的活动</span><!--
+      --><span class='keywords'> <em>[
+        环市公路骑行、长距离慢跑<!--
+        -->
+      ]</em></span><!--
+      -->
+    </div>
+    </ul>
+	</div>
+    <div class='sectionLine'></div>
+
+
+	<div id='thanks' class="sectionBlock">
+    <div class='sectionName'>
+      <span>诚挚致谢</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='thanksBlock'>
+        <em><span style="font-size: large;" class='title'>感谢您在百忙中阅读我的简历，期待有机会与您共事。 </em></span>
+      </div>
+    </div>
+	</div>
+
+
+
+	</body>
+</html>
