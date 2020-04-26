@@ -10,7 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "handlebars": "^4.3.0",
-    "css": "2.2.x"
+    "css": "2.2.x",
+    "minimist": ">=0.2.1"
   },
   "bugs": {
     "url": "https://github.com/hoochanlon/jsonresume-theme-mix/issues"
