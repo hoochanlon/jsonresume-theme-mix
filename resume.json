@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "胡成龙",
-    "label": "IT运维及网络工程师",
+    "label": "网络工程师",
     "picture": "",
     "email": "hoiochanlon@outlook.com",
     "phone": "(+86)18890107327",
@@ -70,7 +70,7 @@
     },
     {
       "company": "鸿海科技集团",
-      "position": "CQE工程师",
+      "position": "Certified Quality Engineer",
       "startDate": "2018.10",
       "endDate": "2019.5",
       "summary": "驻原厂事业群质量管理（IDSBG）",
