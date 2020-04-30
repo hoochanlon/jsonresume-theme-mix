@@ -1,0 +1,25 @@
+{
+  "name": "jsonresume-theme-mix",
+  "version": "0.0.4",
+  "description": "A simple theme for JSON Resume",
+  "author": "Hoochanlon",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoochanlon/jsonresume-theme-mix.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.3.0",
+    "css": "2.2.x",
+    "minimist": ">=0.2.1"
+  },
+  "bugs": {
+    "url": "https://github.com/hoochanlon/jsonresume-theme-mix/issues"
+  },
+  "homepage": "https://github.com/hoochanlon/jsonresume-theme-mix",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
