@@ -115,18 +115,18 @@
     {
       "name": "Network",
       "details": [        
-        { "text": "理解路由协议原理，掌握Cisco路由协议配置","comment": "OSPF,EIGRP,RIP2"},
-        {"text": "理解交换协议原理，对堆叠做过一定了解。","comment": "STP,RSTP,MSTP"},
+        { "text": "掌握应用路由协议原理，掌握Cisco路由协议配置","comment": "OSPF,EIGRP,RIP2"},
+        {"text": "掌握应用交换协议原理，对堆叠做过相应的了解。","comment": "STP,RSTP,MSTP"},
         { "text": "熟悉Win Server部署常见应用服务器及管理","comment": "AD,DHCP,DNS,FTP"},
-        { "text": "能进行主机端口连接测线，机房交换机理线等布线作业"}
+        { "text": "掌握机房Cisco数通设备布线与相关配置，对huawei设备有过一定的使用与了解"}
       ]
     },
     {
       "name": "Desktop",
       "details": [
-        { "text": "掌握主机、扫描仪及打印机等硬件设备异常的解决方案"},
-        { "text": "熟悉企业版杀毒软件数据加密、防火墙、端口隔离等总控操作" },
-        { "text": "具有BAT批处理等部分脚本语言代码实践编写能力"}
+        { "text": "掌握桌面系统防火墙与安全更新配置，以及病毒处理的安全防控" },
+        { "text": "熟悉主机、扫描仪及打印机等硬件设备，以及OA办公异常的解决方案"},
+        { "text": "熟悉batch脚本代码，能明确业务需求，并编写相应的自动化功能模块实现"}
       ]
     }
   ],
@@ -137,7 +137,7 @@
     {
       "name": "Github",
       "keywords": [
-        "交大东岳网络工作室开源项目Awesome-Resume Collaborator"
+        "上海交大东岳网络工作室开源项目Awesome-Resume Collaborator"
       ]
     },
     {
