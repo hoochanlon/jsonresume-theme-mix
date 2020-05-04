@@ -5,7 +5,9 @@ body {
   margin: 40px 0;
 }
 em {
-  color: #999;
+  /* color: #999; */
+  color:#a52a2a;
+  font-weight:bold;
 }
 p {
   line-height: 1.4;
