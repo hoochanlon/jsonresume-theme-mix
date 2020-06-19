@@ -35,7 +35,7 @@ Press ctrl-c to stop
 ## 希望对初涉社会求职的朋友们能有所帮助
 
 * [如何写一份优秀的前端简历](https://github.com/nzbin/resume-boilerplate)
-* [apachecn/TI-Analysis](https://github.com/apachecn/TI-Analysis) 
+* [《桌面运维管理指南》职场社会工程学 专题](https://hoochanlon.github.io/helpdesk-guide/) 
 * [同济大学-博士-王荣昌 给初涉社会年轻人的忠告](http://blog.sciencenet.cn/blog-348492-375365.html)
 * [知乎-有什么是你面试很多次都失败后才知道的？](https://www.zhihu.com/question/290543744/answer/620486019?utm_source=qq&utm_medium=social&utm_oi=1155092701455159296)
 
