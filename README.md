@@ -4,7 +4,7 @@
 
 因此，在改写及校调简历主题时，将原有的学历专项置为null，在只在侧边联系栏中写入毕业院校及专业；但也在配置文件中保留了此专项，说不定会有高知使用哦？😂
 
-主题预览 [hoochanlon/resume](https://hoochanlon.github.io/jsonresume-theme-mix)
+主题预览：https://hoochanlon.github.io/jsonresume-theme-mix
 
 ## 安装与初始化及部署
 
