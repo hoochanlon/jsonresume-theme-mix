@@ -34,11 +34,11 @@ Press ctrl-c to stop
 
 ## 希望对初涉社会求职的朋友们能有所帮助
 
-* [如何写一份优秀的前端简历](https://github.com/nzbin/resume-boilerplate)
-* [reverse-interview-zh 反向面试](https://github.com/yifeikong/reverse-interview-zh)
-* [同济大学-博士-王荣昌 给初涉社会年轻人的忠告](http://blog.sciencenet.cn/blog-348492-375365.html)
-* [知乎-有什么是你面试很多次都失败后才知道的？](https://www.zhihu.com/question/290543744/answer/620486019?utm_source=qq&utm_medium=social&utm_oi=1155092701455159296)
 * [胡成龙 - 就业形势分析及预防欺诈对策](https://nbviewer.org/github/hoochanlon/scripts/blob/main/d-ipynb/就业形势分析及预防欺诈对策.ipynb)
+* [同济大学-博士-王荣昌 给初涉社会年轻人的忠告](http://blog.sciencenet.cn/blog-348492-375365.html)
+* [reverse-interview-zh 反向面试](https://github.com/yifeikong/reverse-interview-zh)
+* [如何写一份优秀的前端简历](https://github.com/nzbin/resume-boilerplate)
+* [知乎-有什么是你面试很多次都失败后才知道的？](https://www.zhihu.com/question/290543744/answer/620486019?utm_source=qq&utm_medium=social&utm_oi=1155092701455159296)
 
 
 # License
