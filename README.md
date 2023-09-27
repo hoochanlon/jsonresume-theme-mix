@@ -40,6 +40,7 @@ Press ctrl-c to stop
 * [如何写一份优秀的前端简历](https://github.com/nzbin/resume-boilerplate)
 * [知乎-有什么是你面试很多次都失败后才知道的？](https://www.zhihu.com/question/290543744/answer/620486019?utm_source=qq&utm_medium=social&utm_oi=1155092701455159296)
 
+jsonresume-theme-mix 移植版简历项目，见：https://github.com/hoochanlon/resume
 
 # License
 
