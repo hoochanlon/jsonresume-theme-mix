@@ -5,7 +5,7 @@
 因此，在改写及校调简历主题时，将原有的学历专项置为null，在只在侧边联系栏中写入毕业院校及专业；但也在配置文件中保留了此专项，说不定会有高知使用哦？😂
 
 > [!NOTE]
-> 注：Word版简历在WPS会显示3页，简历编辑好后建议转换成PDF。
+> 注：因为Word和WPS的排版逻辑不同，同一份简历在WPS里可能变成3页。建议用Word编辑，最终交打印时转换成PDF，这样在任何电脑上打开稿件内容布局都是一致的。
 
 * 主题预览：https://hoochanlon.github.io/jsonresume-theme-mix
 * Latex 版：https://www.overleaf.com/read/mgbjrbswgttr
