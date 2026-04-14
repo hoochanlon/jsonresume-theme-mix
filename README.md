@@ -8,7 +8,8 @@
 > 注：Word版简历在WPS会显示3页，简历编辑好后建议转换成PDF。
 
 * 主题预览：https://hoochanlon.github.io/jsonresume-theme-mix
-* 简历Word版：https://github.com/hoochanlon/jsonresume-theme-mix/blob/master/resume%20(word).docx
+* latex版：https://www.overleaf.com/read/mgbjrbswgttr
+* Word版：https://github.com/hoochanlon/jsonresume-theme-mix/blob/master/resume%20(word).docx
 
 
 ## 安装与初始化及部署
