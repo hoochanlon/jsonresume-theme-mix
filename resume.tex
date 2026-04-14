@@ -1,0 +1,153 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage{CJKutf8}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{listings}
+\usepackage[colorlinks,linkcolor=blue]{hyperref}
+\usepackage{ulem}
+\usepackage{xcolor}
+\usepackage{caption2}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{dashrule}
+\usepackage{lipsum}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\pagenumbering{gobble} % 禁止显示页码
+\setstretch{1.2} % 设置行间距
+\titlespacing*{\section}{0pt}{2ex}{1ex}
+
+
+\newcommand{\mydash}{
+    \noindent\makebox[16cm]{
+        \textcolor{gray!70}{
+            \hdashrule{16cm}{2.5pt}{2.5pt}
+        }
+    }
+    \vspace{-7ex}
+}
+
+\begin{document}
+    \begin{CJK*}{UTF8}{gbsn}
+
+    {
+        \fontsize{28}{28}
+        %它代表红色和褐色的混合色，其中红色占比50%，褐色占比50%。
+        \textcolor{red!60!brown}{\textbf{胡成龙}}
+    }
+
+    {
+        \begin{tabular}[t]{@{}l}
+            信息运维工程师~ \\
+            湖南科技职业技术学院 \\
+            信息网络方向~(2014-2017) \\
+        \end{tabular}
+        \hfill % 横向排版
+        \begin{tabular}[t]{@{}l} % @{}l 去掉左边距
+            $(+86) 18890107327$ \\
+            hoochanlon@outlook.com \\
+            \href{https://github.com/hoochanlon}
+            {\textcolor{black}{https://github.com/hoochanlon}} \\
+        \end{tabular}
+
+    }
+
+        \mydash
+        \section*{\textcolor{red!50!brown}{专业技能}}
+        	\begin{itemize}
+        		\item 熟悉桌面技术自动化语言，如：Python、Shell、PowerShell，以及Batch。
+        		\item 熟悉操作系统（Windows、MacOS和Linux）和网络与数据库基础知识。
+        		\item 具备良好的对问题进行跨学科分析与解决能力，能够快速识别和解决技术难题。
+        		\item 具备良好的沟通能力和团队合作精神，进行跨部门合作，并推动项目成功实施。
+        	\end{itemize}
+
+        \mydash
+        \section*{\textcolor{red!50!brown}{工作经历}}
+
+         	\subsection*{ 杰和科技有限公司~-~信息运维工程师 \hfill $2020.8-2023.9$}
+             \subsubsection*{云主机~SSH~登录策略安全处理}
+             \begin{itemize}
+                 \item[] 针对黑客恶意扫描暴破与挖坑病毒攻击，由此我针对性地调整云主机的SSH登录策略，包括：一、使用~Fail2Ban~技术
+                 对相关登录失败及次数频繁的~IP~地址进行合理封禁；二、将相关条件因素纳入考量范围：~SSH~密钥模式配合~IP~绑定策略，任意密码组合，自定义管理员权限用户。
+                 三、根据以上的可行性分析，得出经验总结，并开发相关脚本，提高云主机的网络安全性。
+             \end{itemize}
+
+             \subsubsection*{LNMP搭建可道云存储及策略配置}
+             \begin{itemize}
+                 \item[] 基于LNMP环境搭建可道云，并使用~Nginx~对敏感资源，如图片、文档文件进行防盗链设置，部分内容压缩文件页面进行特定反向代理以达到部分组员对内容的特殊访问，
+                以及对广告视频展示进行负载均衡，以达到多次访问轮询到不同的测试资源内容。
+             \end{itemize}
+
+             \subsubsection*{~MES~解决车间产品产出途程异常}
+             \begin{itemize}
+                \item[] 跟进~SMT~制程途中意外过站的物料，通过SQL查询出具体的物料编号，对产品产出时间进行清零置~Null，通过此番~Update~操作让其重新回归正常产出线。并在之后输出对应~SOP，形成内部知识体系文档沉淀。
+             \end{itemize}
+
+             \subsubsection*{内网测试部~FTP~应用部署}
+             \begin{itemize}
+                 \item[] 使用~vsftpd~技术，对~FTP~服务进行安全处理，包括：限制匿名用户登录，
+                 限制本地用户登录，限制本地用户的访问权限，以及相关的用户越权处理等。结合上述内容开发相关~Shell~脚本，
+                 以保证主机~FTP~服务的正常安全运行。
+             \end{itemize}
+
+
+        \subsection*{神州动力数码有限公司~-~桌面运维工程师 \hfill  $2018.6-2020.6$}
+        \subsubsection*{桌面技术自动化}
+        \begin{itemize}
+            \item[]
+        {在华夏银行驻点期间，通过对解决问题方案的归纳总结，并后续利用程序语言如：Python, Shell, PowerShell, Batch等开发出多种自动化工具，
+        提高工作效率，具体功能如下：
+        \begin{itemize}
+            \item {通过对IE进行开发级的深入研究，实现对浏览器的主页、安全控件、代理地址等选项进行自动化配置，深入注册表实现OA系统劫持，解决了内部业务站点的历史遗留的兼容性问题。}
+            \item {使用~PowerShell~独立开发桌面基线检查脚本，内容包括：扫描主机、打印机等网络设备连接状态；CPU、内存、显卡常规驱动信息，
+            近期升级补丁、定时任务项等，并生成五天内预警事件，月度已存威胁概况分析报表。}
+        \end{itemize}
+        }
+        \end{itemize}
+
+        \mydash
+        \section*{\textcolor{red!50!brown}{开源项目}}
+        \begin{itemize}
+            \item \textbf{\href{https://github.com/hoochanlon/Free-NTFS-For-Mac}{hoochanlon/Free-NTFS-For-Mac}~:~}
+            {基于~OSXfuse~技术，使用~Python~监控~USB~外部存储读取状态，并跟据硬盘格式特征，嵌入~Shell~加载系统级的苹果内核支持扩展，以实现~Mac~对~NTFS~格式移动存储设备的完全支持。}
+
+            \item \textbf{\href{https://github.com/hoochanlon/scripts}{hoochanlon/scripts}~:~}
+            {从实际工作出发，根据~Windows/Mac/Linux~不同系统平台特性，以及~Python,~Powershell,~Shell~等程序语言，开发出多种脚本工具，并提高工作效率。具体功能如下：桌面基线综合问题排查、云主机终端安全加固、主机系统日志分析、软件及系统配置自动化、流媒体爬虫数据分析等。}
+
+            % \item \textbf{\href{https://github.com/hoochanlon/hamulete}{hoochanlon/hamulete}~:~}{收集高校与科研机构发表的系统工程、
+            % 人文社科等类别的学术论文，以及根据自己的经验对相关计算机软件应用知识分享，二者加以充分整合，构建起了一个开源信息平台共享知识库项目，在~GitHub~上已获得8.4k Stars。}
+
+            \item \textbf{\href{https://github.com/hoochanlon/fq-book}{hoochanlon/fq-book}~:~}{结合自身专业知识，并广泛查阅谷歌学术、
+            维基百科提供的相关技术文献，对其结论进行充分的验证和论证，并内化成自己的体系知识，输出文档作品。详细阐述了~VPN、Proxy、SSH Tunnel~运作过程，并对防火墙检测策略如：IP地址与端口封锁、服务器缓存投毒、SSL~连接阻断做相关的原理说明。在~GitHub~上已获得2k Stars。}
+        \end{itemize}
+
+		% \mydash
+		%  \section*{\textcolor{red!50!brown}{文档作品}}
+		%  {
+		%  	\fontsize{15}{16}{\textbf{《企业信息建设运维实战》}} \\
+		%  	\fontsize{9pt}{11pt}\selectfont{https://github.com/hoochanlon/helpdesk-guide} \\
+		%  }
+
+        \mydash
+        \begin{center}
+             \textbf{
+                \fontsize{15}{14}
+                \textcolor{red!40!brown}{感谢您在百忙中阅读我的简历，期待有机会与您共事。}
+             }
+        \end{center}
+
+    \end{CJK*}
+\end{document}
